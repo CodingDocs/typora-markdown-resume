@@ -1,8 +1,8 @@
 # typora-markdown-resume
 
-自定义 CSS 简洁大方的 Markdown 简历模板。具体实现效果如下：
+自定义 CSS 简洁大方的 Markdown 简历模板。具体实现效果如下(在线预览)：
 
-![](./media/resume-template.png)
+![](./media/resume-template.jpeg)
 
 ### 如何使用？
 

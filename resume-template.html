@@ -1,0 +1,517 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>resume-template</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+svg[id^="mermaidChart"] { line-height: 1em; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+
+
+h1,
+.h1,
+.f1 {
+  text-align: center;
+  font-size:2.5rem
+}
+h2,
+.h2,
+.f2 {
+  font-size: 1.9rem;
+}
+
+h2 {
+  background-color: #5c5c5c;
+  display: inline-block;
+  color: white;
+  padding: 9px 15px;
+  border-radius: 1px;
+}
+
+h3,
+.h3,
+.f3 {
+  font-size: 1.6rem;
+}
+p,
+.p,
+.f4,
+h4,
+h5,
+h6,
+dl,
+ol,
+ul,
+pre[cid],
+div[cid],
+#typora-source {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+h4 {
+  font-size: 1.13rem;
+}
+
+body {
+  font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", "STSong",
+    Serif;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+#write {
+  max-width: 914px;
+  color: #333;
+}
+
+hr {
+  border-top: 2px dashed #dddddd;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+}
+body {
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.ty-table-edit {
+  background: #ededed;
+}
+
+table {
+  width: 100%;
+  font-size: 1.125rem;
+}
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td,
+table > tfoot > tr > th,
+table > tfoot > tr > td {
+  padding: 12px;
+  line-height: 1.2;
+  vertical-align: top;
+  border-top: 1px solid #333;
+}
+table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #333;
+}
+table > caption + thead > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > th,
+table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+table > tbody + tbody {
+  border-top: 2px solid #333;
+}
+p {
+  font-weight: 300;
+  line-height: 1.5;
+}
+abbr {
+  border-bottom: 1px black dotted;
+  cursor: help;
+}
+pre,
+code {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+code,
+.md-fences {
+  color: #7a7a7a;
+}
+
+.md-fences {
+  padding: 1.125em;
+  margin-bottom: 0.88em;
+  font-size: 1rem;
+  border: 1px solid #7a7a7a;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+blockquote {
+  padding: 1.33em;
+  font-style: italic;
+  border-left: 5px solid #7a7a7a;
+  color: #555;
+}
+blockquote em {
+  color: #000;
+}
+blockquote footer {
+  font-size: 0.85rem;
+  font-style: normal;
+  background-color: #fff;
+  color: #7a7a7a;
+  border-color: transparent;
+}
+
+a {
+  color: #463f5c;
+  text-decoration: underline;
+}
+
+#write {
+  padding-top: 2rem;
+}
+
+#write pre.md-meta-block {
+  min-height: 35px;
+  padding: 0.5em 1em;
+  white-space: pre;
+  border: 0px;
+
+  border-left: 30px #f8f8f8 solid;
+  border-right: 30px #f8f8f8 solid;
+  width: 100vw;
+  max-width: calc(100% + 60px);
+
+  margin-left: -30px;
+  margin-bottom: 2em;
+  margin-top: -2010px;
+  padding-top: 2000px;
+  padding-bottom: 10px;
+  line-height: 1.5em;
+  color: #7a7a7a;
+  background-color: #fafafa;
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  clear: both;
+  padding-left: 0;
+  font-size: 1.125rem;
+}
+.md-image > .md-meta {
+  color: #463f5c;
+}
+.footnotes {
+  font-size: 1.1rem;
+}
+.md-tag {
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+}
+.code-tooltip {
+  background: white;
+}
+.code-tooltip-content {
+  font-size: 1.1rem;
+}
+
+.task-list {
+  padding-left: 0;
+}
+
+.md-task-list-item {
+  padding-left: 34px;
+}
+
+.md-task-list-item > input {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: block;
+  -webkit-appearance: initial;
+  top: -0.2rem;
+  margin-left: -1.6em;
+  margin-top: calc(1rem - 7px);
+  border: none;
+}
+
+.md-task-list-item > input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.md-task-list-item > input:before {
+  border: 1px solid #555;
+  border-radius: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #fff;
+  content: " ";
+  transition: background-color 200ms ease-in-out;
+  display: block;
+}
+
+.md-task-list-item > input:checked:before,
+.md-task-list-item > input[checked]:before {
+  background: #333;
+  border-width: 2px;
+  display: inline-block;
+  transition: background-color 200ms ease-in-out;
+}
+
+.md-task-list-item > input:checked:after,
+.md-task-list-item > input[checked]:after {
+  opacity: 1;
+}
+
+.md-task-list-item > input:after {
+  opacity: 1;
+  -webkit-transition: opacity 0.05s ease-in-out;
+  -moz-transition: opacity 0.05s ease-in-out;
+  transition: opacity 0.05s ease-in-out;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 0.4375rem;
+  left: 0.28125rem;
+  width: 0.9375rem;
+  height: 0.5rem;
+  border: 3px solid #fff;
+  border-top: 0;
+  border-right: 0;
+  content: " ";
+  opacity: 0;
+}
+
+.md-tag {
+  color: inherit;
+}
+
+.md-toc:focus .md-toc-content {
+  margin-top: 19px;
+}
+
+#typora-sidebar {
+  font-size: 1rem !important;
+}
+
+.html-for-mac #typora-sidebar {
+  background-color: white;
+}
+
+.outline-content li,
+.outline-content ul {
+  font-size: 1rem !important;
+}
+
+.outline-title {
+  line-height: inherit;
+  margin-top: 10px;
+}
+
+.outline-expander {
+  width: 18px;
+}
+
+.outline-expander:before {
+  content: "+";
+  font-family: inherit;
+  color: rgb(108, 108, 108);
+  font-size: 1.5rem;
+  top: 0.1rem;
+}
+
+.outline-expander:hover:before {
+  content: "+";
+}
+
+.outline-item-open > .outline-item > .outline-expander:before {
+  content: "-";
+}
+
+/** source code mode */
+#typora-source {
+  font-family: Courier, monospace;
+  color: #6a6a6a;
+}
+
+.os-windows #typora-source {
+  font-family: inherit;
+}
+
+.cm-s-typora-default .cm-header,
+.cm-s-typora-default .cm-property,
+.CodeMirror.cm-s-typora-default div.CodeMirror-cursor {
+  color: #428bca;
+}
+
+.cm-s-typora-default .cm-atom,
+.cm-s-typora-default .cm-number {
+  color: #777777;
+}
+
+.md-diagram-panel {
+  margin-top: 24px;
+  margin-left: -1.2em;
+}
+
+.md-mathjax-midline {
+  background: #fafafa;
+}
+
+.enable-diagrams pre.md-fences[lang="sequence"] .code-tooltip,
+.enable-diagrams pre.md-fences[lang="flow"] .code-tooltip,
+.enable-diagrams pre.md-fences[lang="mermaid"] .code-tooltip {
+  bottom: -3.4em;
+}
+
+.dropdown-menu .divider {
+  border-color: #e5e5e5;
+}
+
+
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-mac'><h1><a name="xxx" class="md-header-anchor"></a><span>XXX</span></h1><p style="text-align:center;color:rgb(93,93,93)">一个热爱编程的Java程序员 </p><hr /><h2><a name="联系方式" class="md-header-anchor"></a><span>联系方式</span></h2><ul><li><span>手机：181631XXXXXX</span></li><li><span>Email：</span><a href='mailto:XXX@163.com' target='_blank' class='url'>XXX@163.com</a></li><li><span>微信：XXX</span></li></ul><h2><a name="个人信息" class="md-header-anchor"></a><span>个人信息</span></h2><ul><li><span>男/1996</span></li><li><span>本科/XXX 大学 XXX 专业/英语 X 级</span></li><li><span>荣誉奖励：第 10 届 XXX 软件编程 1 等奖（一笔带过）</span></li><li><span>技术博客：XXX</span></li><li><span>Github：</span><a href='https://github.com/Snailclimb'><span>https://github.com/XXX </span></a><span> （没有东西的话就不要放上来）</span></li><li><span>期望职位：XXX 期望城市：XXX</span></li></ul><h2><a name="工作经历实习经历" class="md-header-anchor"></a><span>工作经历/实习经历</span></h2><h3><a name="xxx-公司-201x-年-x-月--201x-年-x-月-）" class="md-header-anchor"></a><span>XXX 公司 （201X 年 X 月 ~ 201X 年 X 月 ）</span></h3><ul><li><strong><span>职位</span></strong><span>：Java 后端开发工程师</span></li><li><strong><span>工作内容</span></strong><span>：主要负责 XXX</span></li></ul><h2><a name="项目经历" class="md-header-anchor"></a><span>项目经历</span></h2><h3><a name="xxx-系统" class="md-header-anchor"></a><span>XXX 系统</span></h3><p><span>201x-201x xxx 公司 xxx 项目 Java 后端开发工程师</span></p><ul><li><strong><span>项目描述</span></strong><span> : 简单描述项目是做什么的，用了什么技术</span></li><li><strong><span>工作内容</span></strong><span> :简单描述自己做了什么，解决了什么问题，带来了什么实质性的改善。突出自己的能力，不要过于平淡的叙述。</span></li></ul><h2><a name="开源项目可选）" class="md-header-anchor"></a><span>开源项目（可选）</span></h2><ol start='' ><li><span>XXX</span></li><li><span>XXX</span></li><li><span>......</span></li></ol><h2><a name="原创技术文章可选）" class="md-header-anchor"></a><span>原创技术文章（可选）</span></h2><ol start='' ><li><span>XXX</span></li><li><span>XXX</span></li><li><span>......</span></li></ol><h2><a name="校园经历可选）" class="md-header-anchor"></a><span>校园经历（可选）</span></h2><p><span>有比较亮眼的校园经历的话就简单写一下，没有就不写！</span></p><h2><a name="技能清单" class="md-header-anchor"></a><span>技能清单</span></h2><ul><li><strong><span>计算机基础</span></strong><span> ：熟练掌握计算机网络、数据结构和算法</span></li><li><strong><span>Linux</span></strong><span> : 熟练使用 Linux，有 Linux 下开发的实际经验</span></li><li><strong><span>Java</span></strong><span>：熟练掌握 Java 基础知识、Java 并发、JVM 调优</span></li><li><strong><span>数据库</span></strong><span>：熟练掌握 MySQL 数据库以及常见优化手段，Redis 使用经验丰富 ，了解 MongoDB</span></li><li><strong><span>框架</span></strong><span>：熟练使用 Spring、Spring MVC、 SpringBoot、MyBatis、JPA、Spring Security 等框架</span></li><li><strong><span>分布式</span></strong><span>：熟练使用 Dubbo、Zookeeper、消息队列 Kafka、RocketMq、Elasticsearch</span></li><li><strong><span>工具</span></strong><span>：熟练使用 Git、Maven、Docker 等常用开发工具</span></li><li><strong><span>前端</span></strong><span>：熟练使用 React、Vue、TypeScript 等常见前端框架</span></li></ul><h2><a name="个人评价" class="md-header-anchor"></a><span>个人评价</span></h2><p><span>我是 XXX</span></p><h2><a name="感谢阅读" class="md-header-anchor"></a><span>感谢阅读</span></h2><p><span>感谢您花时间阅读我的简历，期待能与您共事！</span></p></div>
+</body>
+</html>
