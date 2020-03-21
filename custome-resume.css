@@ -2,26 +2,26 @@ h1,
 .h1,
 .f1 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 h2,
 .h2,
 .f2 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 h2 {
   background-color: #5c5c5c;
-  display:inline-block;
+  display: inline-block;
   color: white;
-  padding: 5px 15px;
+  padding: 9px 15px;
   border-radius: 1px;
 }
 
 h3,
 .h3,
 .f3 {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 p,
 .p,
@@ -35,7 +35,7 @@ ul,
 pre[cid],
 div[cid],
 #typora-source {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.5rem;
 }
 
@@ -44,7 +44,8 @@ h4 {
 }
 
 body {
-  font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", "STSong", Serif;
+  font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", "STSong",
+    Serif;
   line-height: 1.5rem;
   font-weight: 400;
 }
@@ -54,8 +55,8 @@ body {
   color: #333;
 }
 
-hr{
-   border-top: 2px dashed #dddddd;
+hr {
+  border-top: 2px dashed #dddddd;
 }
 
 img {
@@ -63,7 +64,6 @@ img {
   max-width: 100%;
 }
 body {
-  font-size: 1.5rem;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -104,7 +104,7 @@ table > tbody + tbody {
   border-top: 2px solid #333;
 }
 p {
-  font-weight: 300;
+  font-size: 1.225rem;
   line-height: 1.5;
 }
 abbr {
@@ -146,99 +146,7 @@ blockquote footer {
   color: #7a7a7a;
   border-color: transparent;
 }
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: bold;
-  line-height: 1.2;
-  margin: 1em 0 0.5em;
-}
-@media screen and (min-width: 48em) {
-  .h1,
-  h1 {
-    font-size: 3.25rem;
-  }
-  .h2,
-  h2 {
-    font-size: 2.298rem;
-  }
-  .h3,
-  h3 {
-    font-size: 1.625rem;
-  }
-  .h4,
-  h4 {
-    font-size: 1.3rem;
-  }
-  #write > h4.md-focus:before,
-  #write > h5.md-focus:before,
-  #write > h6.md-focus:before {
-    top: 1px;
-  }
-  .p,
-  p,
-  li {
-    font-size: 1.25rem;
-    line-height: 1.8;
-  }
-  table {
-    font-size: 1.25rem;
-  }
-}
-@media (max-width: 48em) {
-  blockquote {
-    margin-left: 1rem;
-    margin-right: 0;
-    padding: 0.5em;
-  }
-  .h1,
-  h1 {
-    font-size: 2.827rem;
-  }
-  .h2,
-  h2 {
-    font-size: 1.999rem;
-  }
-  .h3,
-  h3 {
-    font-size: 1.413rem;
-  }
-  .h4,
-  h4 {
-    font-size: 1.3rem;
-  }
-}
-@media screen and (min-width: 64em) {
-  .h1,
-  h1 {
-    font-size: 4.498rem;
-  }
-  .h2,
-  h2 {
-    font-size: 2.29rem;
-  }
-  .h3,
-  h3 {
-    font-size: 1.9rem;
-  }
-  .h4,
-  h4 {
-    font-size: 1.591rem;
-  }
-  #write > h4.md-focus:before {
-    top: 4px;
-  }
-}
+
 a {
   color: #463f5c;
   text-decoration: underline;
