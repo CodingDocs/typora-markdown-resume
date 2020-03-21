@@ -60,7 +60,7 @@
 - **框架**：熟练使用 Spring、Spring MVC、 SpringBoot、MyBatis、JPA、Spring Security 等框架
 - **分布式**：熟练使用 Dubbo、Zookeeper、消息队列 Kafka、RocketMq、Elasticsearch
 - **工具**：熟练使用 Git、Maven、Docker 等常用开发工具
-- **前端**：熟练使用 React、Vue、TypeScript 等常见前端框架
+- **前端**：熟练使用 TypeScript  以及 React、Vue等常见前端框架
 
 ## 个人评价
 
