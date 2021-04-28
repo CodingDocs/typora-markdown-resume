@@ -2,31 +2,61 @@
 @include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Open Sans Regular'),url('./github/400.woff') format('woff');
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Merriweather Light'), local('Merriweather-Light'), url('./resume/merriweather-v19-latin-300.woff') format('woff');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Merriweather Heavy'), local('Merriweather-Heavy'), url('./resume/merriweather-v19-latin-700.woff') format('woff');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Merriweather Light Italic'), local('Merriweather-LightItalic'), url('./resume/merriweather-v19-latin-300italic.woff') format('woff');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: bold;
+	src: local('Merriweather Heavy Italic'), local('Merriweather-HeavyItalic'), url('./resume/merriweather-v19-latin-700italic.woff') format('woff');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: normal;
-    src: local('Open Sans Italic'),url('./github/400i.woff') format('woff');
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Lato Light'), local('Lato-Light'), url('./resume/lato-v14-latin-300.woff') format('woff');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: bold;
-    src: local('Open Sans Bold'),url('./github/700.woff') format('woff');
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Lato Black'), local('Lato-Blcak'), url('./resume/lato-v14-latin-900.woff') format('woff');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 @font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: bold;
-    src: local('Open Sans Bold Italic'),url('./github/700i.woff') format('woff');
+	font-family: 'Lato';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Lato LightItalic'), local('Lato-LightItalic'), url('./resume/lato-v14-latin-300italic.woff') format('woff');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: 'Lato';
+	font-style: italic;
+	font-weight: bold;
+	src: local('Lato BlackItalic'), local('Lato-BlackItalic'), url('./resume/lato-v14-latin-900italic.woff') format('woff');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 
@@ -76,7 +106,7 @@ h4 {
 }
 
 body {
-  font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", "STSong", Serif;
   line-height: 1.5rem;
   font-weight: 400;
 }
@@ -206,8 +236,7 @@ a {
   line-height: 1.5em;
   color: #7a7a7a;
   background-color: #fafafa;
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 300;
+  font-family: Menlo, Monaco, "Courier New", monospace;  font-weight: 300;
   clear: both;
   padding-left: 0;
   font-size: 1.125rem;
@@ -219,7 +248,7 @@ a {
   font-size: 1.1rem;
 }
 .md-tag {
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .code-tooltip {
   background: white;

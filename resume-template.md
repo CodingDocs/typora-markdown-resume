@@ -53,14 +53,19 @@
 
 ## 技能清单
 
-- **计算机基础** ：熟练掌握计算机网络、数据结构和算法
+- **计算机基础** ：熟练掌握计算机网络、数据结构和算法、操作系统，了解计算机组成原理
 - **Linux** : 熟练使用 Linux，有 Linux 下开发的实际经验
-- **Java**：熟练掌握 Java 基础知识、Java 并发、JVM 调优
-- **数据库**：熟练掌握 MySQL 数据库以及常见优化手段，Redis 使用经验丰富 ，了解 MongoDB
-- **框架**：熟练使用 Spring、Spring MVC、 SpringBoot、MyBatis、JPA、Spring Security 等框架
-- **分布式**：熟练使用 Dubbo、Zookeeper、消息队列 Kafka、RocketMq、Elasticsearch
-- **工具**：熟练使用 Git、Maven、Docker 等常用开发工具
-- **前端**：熟练使用 TypeScript  以及 React、Vue等常见前端框架
+- **Java**：熟练掌握 Java 基础知识、Java 并发、JVM，有过 JVM 排查问题和调优的经历
+- **数据库**：熟练掌握 MySQL 数据库以及常见优化手段（比如索引、SQL 优化、读写分离&分库分表），Redis 使用经验丰富 ，熟悉 MongoDB
+- **搜索引擎** ：熟练掌握 Elasticsearch 的使用及原理，熟悉 Solr 的使用
+- **框架**：熟练掌握 Spring、Spring MVC、 SpringBoot、MyBatis、JPA、Spring Security 等主流开发框架
+- **分布式**：
+  - 熟练掌握分布式下的常见理论 CAP、BASE，熟悉 Paxos 算法和 Raft 算法
+  - 熟练掌握 RPC（Dubbo）、分布式事务（Seata、2PC、3PC、TCC）、配置中心（Apollo）、分布式链路追踪（SkyWalking）、分布式 id（UUID、Snowflake）的使用及原理
+  - 熟悉 Spring Cloud 全家桶常见组件的使用
+- **高并发&高可用** ：熟练掌握消息队列 Kafka 的使用及原理 、有限流、降级、熔断的实战经验、
+- **工具**：熟练掌握 Git、Maven、Docker
+- **前端**：熟悉 TypeScript ，有 React、Vue 的实际开发经验
 
 ## 个人评价
 
