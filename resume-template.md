@@ -17,22 +17,29 @@
 | 北京理工大学 | 硕士，软件工程 | 2019.09 - 2022.01 |
 | 湖南大学     | 学士，应用化学 | 2015.09 ~ 2019.06 |
 
-
 ## 技能清单
 
+下面是一些比较基本的 Java 后端开发技能：
+
 - **计算机基础** ：熟练掌握计算机网络、数据结构和算法、操作系统，了解计算机组成原理
-- **Linux** : 熟练使用 Linux，有 Linux 下开发的实际经验
-- **Java**：熟练掌握 Java 基础知识、Java 并发、JVM，有过 JVM 排查问题和调优的经历
-- **数据库**：熟练掌握 MySQL 数据库以及常见优化手段（比如索引、SQL 优化、读写分离&分库分表），Redis 使用经验丰富 ，熟悉 MongoDB
-- **搜索引擎** ：熟练掌握 Elasticsearch 的使用及原理，熟悉 Solr 的使用
-- **框架**：熟练掌握 Spring、Spring MVC、 SpringBoot、MyBatis、JPA、Spring Security 等主流开发框架
-- **分布式**：
-  - 熟练掌握分布式下的常见理论 CAP、BASE，熟悉 Paxos 算法和 Raft 算法
-  - 熟练掌握 RPC（Dubbo）、分布式事务（Seata、2PC、3PC、TCC）、配置中心（Apollo）、分布式链路追踪（SkyWalking）、分布式 id（UUID、Snowflake）的使用及原理
-  - 熟悉 Spring Cloud 全家桶常见组件的使用
-- **高并发&高可用** ：熟练掌握消息队列 Kafka 的使用及原理 、有限流、降级、熔断的实战经验、
-- **工具**：熟练掌握 Git、Maven、Docker
-- **前端**：熟悉 TypeScript ，有 React、Vue 的实际开发经验
+- **Linux** : 熟练使用 Linux，有 Linux 下开发部署项目的实际经验
+- **Java**：熟练掌握 Java 基础、集合、并发、熟悉 JVM 常见概念，有过 JVM 排查问题和调优的经历
+- **开发工具** ：熟练使用 Maven/Gradle、Git、IDEA 、Docker 等开发工具。
+- **数据库**：熟练掌握 MySQL 数据库以及常见优化手段（比如索引、SQL 优化、读写分离、分库分表），Redis 实战经验丰富（搭建过 Redis 集群），熟悉 MongoDB
+- **搜索引擎** ：熟练掌握 Elasticsearch/Solr 的使用及原理
+- **框架** （根据自身情况调整）：
+  - 熟练掌握 Spring、Spring MVC、 SpringBoot、MyBatis、JPA、Spring Security 、Junit 等基础开发框架
+  - 熟练掌握 Netty 网络编程（可选）
+  - 熟练掌握 Activiti/Flowable （可选，工作流框架）
+- **分布式** （可选，根据自身情况调整）：
+  - 熟练掌握 RPC（Dubbo）、分布式事务（Seata）、配置中心（Apollo）、分布式链路追踪（SkyWalking）、分布式 ID（UUID、Snowflake）、消息队列（Kafka）、限流熔断（Sentinel）的使用及原理
+  - 熟悉 Spring Cloud/Spring Cloud Alibaba 全家桶常见组件的使用，微服务架构项目开发经验丰富
+- **前端**：熟练掌握 HTML5、CSS、Javascript、Ajax，熟悉 TypeScript ，有 React、Vue 的实际开发经验
+
+还有一些工作招聘有一些特殊的要求比如：
+
+- **Devops** : 熟练掌握 Jenkins，熟悉 CI/CD 流程
+- **云原生** ：熟练掌握 Kubernetes 以及周边生态/ServiceMesh
 
 ## 工作经历/实习经历
 
@@ -48,7 +55,9 @@
 2017-05~2018-06  淘宝  Java后端开发工程师
 
 - **项目描述** : 简单描述项目是做什么的，用了什么技术
-- **工作内容** :简单描述自己做了什么，解决了什么问题，带来了什么实质性的改善。突出自己的能力，不要过于平淡的叙述。
+- **工作内容** : 简单描述自己做了什么，解决了什么问题，带来了什么实质性的改善。突出自己的能力，不要过于平淡的叙述。
+- **个人收获** （可选） ：从这个项目中你学会了那些东西，使用到了那些技术，学会了那些新技术的使用
+- **项目成果**（可选）：简单描述这个项目取得了什么成绩。
 
 ## 荣誉奖项（可选）
 
