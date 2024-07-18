@@ -5,7 +5,7 @@
 }
 
 .title-text {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 body, .title-text {
@@ -20,8 +20,8 @@ body, .title-text {
 #write {
     max-width: 960px;
     margin: 0 auto;
-    padding: 30px;
-    padding-bottom: 100px;
+    padding: 50px;
+    padding-bottom: 30px;
 }
 
 #write>ul:first-child, #write>ol:first-child {
@@ -36,23 +36,23 @@ h1 {
     font-family: "Inter", "思源黑体 CN";
     padding-bottom: .1em;
     font-size: 22px;
-    line-height: 1.5;
+    line-height: 20px;
     text-align: center;
 }
 
 h2{
     min-height: 32px;
-    line-height: 28px;
+    line-height: 20px;
     color: rgb(12, 12, 12);
     display: inline-block;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-color: rgb(12, 12, 12);
-    padding-top: 5px;
+    padding-top: 3px;
     padding-right: 0.5em;
     padding-left: 0.5em;
     margin-bottom: -3px;
-    font-size: 20px;
+    font-size: 18px;
     margin:1em auto;
     padding: 0.5em 0;
     text-align: center;
@@ -323,11 +323,7 @@ del {
         word-wrap: break-word;
     }
     ol {
-        border: 1px solid rgb(238, 238, 238);
-        border-radius: 4px;
-        padding-top: 12px;
-        padding-bottom: 8px;
-        padding-right: 4px;
+        border: none;
     }
     a>span>code, a>code, a code {
         background-color: #3b78e718!important;
@@ -370,12 +366,6 @@ del {
 .md-toc-h2 {
     margin-top: 8px;
 }
-
-/* h1 strong, h2 strong, h3 strong, h4 strong, h6 strong, .md-toc strong{
-    font-weight: 800;
-    border-radius: 4px;
-    background-color: #f1f3f4;
-} */
 
 .md-p a, a.md-toc-inner {
     color: #3b78e7!important;
@@ -627,14 +617,6 @@ content {
     src: url('fluent/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('fluent/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('fluent/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('fluent/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('fluent/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
     font-weight: normal;
     font-style: normal;
-}
-
-.ol-list {
-    border: 1px solid rgb(238, 238, 238);
-    border-radius: 4px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 12px;
 }
 
 .MetaInfo-Author {

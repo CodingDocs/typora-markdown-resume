@@ -2,9 +2,9 @@
 
 自定义 CSS 简洁大方的 Markdown 简历模板。具体实现效果如下：
 
-![](https://img-blog.csdnimg.cn/20210428192649394.png)
+<img src="./media/overview.png" style="zoom:50%;" />
 
-### 如何使用？
+## 如何使用？
 
 **1)下载 [Typora](https://typora.io/)**
 
@@ -32,4 +32,4 @@
 
 不要勾选页眉页脚。
 
-![](./media/resume-template-setting-5.png)
+![](media/resume-template-setting-5.png)
