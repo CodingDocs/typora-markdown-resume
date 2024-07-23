@@ -10,7 +10,7 @@
 
 例如，**https://resumd.t9t.io/** 这个在线排版工具。
 
-直接将 Markdown 格式的简历内容复制过去，选择 “Github 主题”，然后下载 PDF 格式即可。
+直接将 [Markdown 格式的简历内容](./resume-template.md)复制过去，选择 “Github 主题”，然后下载 PDF 格式即可。
 
 ![](./media/resumd.t9t.io.png)
 
